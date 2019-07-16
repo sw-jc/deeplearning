@@ -1,0 +1,8 @@
+
+1.	一个很神奇的问题哈，就是我的pycharm代码自动提示，缺很多函数，找了百度也不行，但是，power save  mode我是没有勾选的，因为勾选之后是不会提示的。
+解决方法就是勾选power save mode  然后再取消  就有了。。。
+2.	还有个问题就是pycharm一直indexing的问题，很大可能就是磁盘空间满了，网上关于这个问题的解决方法有很多，但是没有磁盘满了这个说法，所以如果网上的方法都试过了还是不行的话，就看看磁盘空间是不是满了。
+3. 关于cuda不能用
+torch.__version__   查看pytorch的版本
+torch.version.cuda   查看cuda可以用的版本  如果为none就说明这个pytorch不支持cuda
+torch.cuda.is_available()  检查cuda是否可用
